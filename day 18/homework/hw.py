@@ -6,7 +6,7 @@ while num <= 50:
     num=num+1
     print(num)
 
-num=int(input("input 10 numbers:"))
+num=int(input("input 10 number:"))
 
 sum = 0
 for i in range(1,num):
