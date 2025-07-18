@@ -1,8 +1,6 @@
 from turtle import *
 
-#we want to paint a house
 
-#step 1: draw a squar
 begin_fill()
 
 color("purple")
@@ -19,9 +17,8 @@ left(90)
 forward(200)
 left(90)
 end_fill()
-#end of square
 
-#drawing a door
+
 begin_fill()
 forward(70)
 color("yellow")
