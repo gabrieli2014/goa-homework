@@ -1,0 +1,35 @@
+h1{
+    color: rgb(90, 141, 193);
+    font-size: 80px;
+}
+
+p{
+    color: #3ec81f;
+    font-size: 60px;
+}
+
+.ER{
+    color: black;
+    font-size: 50px;
+}
+
+
+
+body{
+    background-color: aqua;
+
+}
+
+.ty{
+    color: bisque;
+}
+
+button{
+    background-color: blueviolet;
+    font-size: xx-large;
+}
+
+img{
+    width: 200;
+    height: 300;
+}
