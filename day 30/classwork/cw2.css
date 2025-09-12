@@ -1,0 +1,27 @@
+.h1{
+    color: green;
+
+}p{
+    font-size: large;
+}
+
+.b{
+    color: rgb(30, 123, 204);
+}
+
+.ul{
+    font: size 24px; ;
+}
+
+.dac{
+background-color: black; 
+color: red;
+}
+
+.dac:HOVER{
+    background-color: blue;
+}
+
+.dac:active{
+    background-color: green;
+}

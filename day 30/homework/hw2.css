@@ -1,0 +1,66 @@
+.link{
+    background-color: green;
+
+}
+.link:hover{
+    background-color: yellow;
+}
+.link:active{
+    background-color: red;
+}
+
+.y{
+    color: black;
+}
+
+.t{
+    color: black;
+}
+
+.u{
+    color: black;
+}
+
+.y:visited{
+    color: purple;
+}
+
+.t:visited{
+    color: purple;
+}
+
+.u:visited{
+    color: purple;
+}
+
+.ui{
+    background-color: grey;
+}
+
+.ui:hover{
+    background-color: blue;
+}
+
+.ui:active{
+    background-color: green;
+}
+
+.o:hover{
+    background-color: red;
+}
+
+.p:hover{
+    background-color: red;
+}
+
+.k{
+    background-color: black;
+}
+
+.k:hover{
+    background-color: green;
+}
+
+.k:visited{
+    background-color: brown;
+}
