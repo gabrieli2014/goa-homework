@@ -1,0 +1,24 @@
+table {
+      border-collapse: collapse;
+      width: 60%;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      border: 1px;
+    }
+    th, td {
+      border: 1px ;
+      padding: 10px;
+    }
+    th {
+      background-color: grey;
+      color: white;
+    }
+    .gold {
+      background-color: gold;
+    }
+    .silver {
+      background-color: silver;
+    }
+    .bronze {
+      background-color: peru; 
+    } 
