@@ -1,0 +1,14 @@
+.part{ 
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+
+
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3 , 3fr);
+    gap:40px;
+}

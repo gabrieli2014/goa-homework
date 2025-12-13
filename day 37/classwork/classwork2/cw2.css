@@ -1,0 +1,10 @@
+.chr{
+    display: grid;
+    grid-template-columns: repeat(3 , 3fr);
+    gap:40px;
+}
+.tsb{ 
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
