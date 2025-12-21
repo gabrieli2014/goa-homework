@@ -1,0 +1,37 @@
+ body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+  }
+
+  .ball {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: moveBall 3s infinite;
+  }
+
+
+ @keyframes moveBall {
+    from {
+      left: 50%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
