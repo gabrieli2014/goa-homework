@@ -1,0 +1,26 @@
+ body {
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: "Times New Roman", serif;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 200px);
+      gap: 20px;
+    }
+
+    .box {
+      background: #4a4a4a;
+      color: white;
+      height: 120px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 48px;
+      font-weight: bold;
+    }

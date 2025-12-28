@@ -1,0 +1,64 @@
+  p {
+      font-size: 24px;
+    }
+
+    .box {
+      width: 400px;
+      height: 100px;
+      background-color: lightblue;
+      margin-bottom: 20px;
+    }
+
+    
+    .container {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .block {
+      width: 150px;
+      height: 100px;
+      background-color: lightcoral;
+    }
+
+    
+    img {
+      height: 300px;
+      margin-bottom: 20px;
+    }
+
+    
+    button {
+      padding: 20px;
+      font-size: 16px;
+    }
+
+   
+    @media (max-width: 600px) {
+      p {
+        font-size: 16px;
+      }
+
+      .box {
+        width: 100%;
+      }
+
+      button {
+        padding: 10px;
+      }
+    }
+
+    
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+
+    
+    @media (max-width: 500px) {
+      img {
+        height: 150px;
+      }
+    }

@@ -1,0 +1,36 @@
+ .box {
+      width: 150px;
+      height: 150px;
+      background-color: red;
+      animation: boxColor 5s 5;
+      margin-bottom: 40px;
+    }
+
+    @keyframes boxColor {
+      from {
+        background-color: red;
+      }
+      to {
+        background-color: yellow;
+      }
+    }
+
+    
+    .ball {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      border-radius: 50%;
+      animation: ballAnim 2s infinite alternate;
+    }
+
+    @keyframes ballAnim {
+      from {
+        background-color: blue;
+        transform: scale(1);
+      }
+      to {
+        background-color: green;
+        transform: scale(2);
+      }
+    }

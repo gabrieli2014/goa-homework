@@ -1,0 +1,22 @@
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 50px auto;
+        }
+
+   
+        @media (max-width: 800px) {
+            .box {
+                background-color: yellow;
+            }
+        }
+
+      
+        @media (max-width: 400px) {
+            .box {
+            background-color: blue;
+             }
+  }
+
