@@ -1,0 +1,13 @@
+    #box {
+      width: 150px;
+      height: 150px;
+      background-color: lightblue;
+      margin: 10px 0;
+    }
+
+    #borderDiv {
+      width: 150px;
+      height: 100px;
+      background-color: lightgray;
+      margin-top: 10px;
+    }
