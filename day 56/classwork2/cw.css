@@ -1,0 +1,51 @@
+body {
+      text-align: center;
+      font-family: Arial;
+      transition: 0.5s;
+    }
+
+    #box {
+      width: 200px;
+      height: 200px;
+      border: 2px solid black;
+      margin: 20px auto;
+    }
+
+    /* box ფერები */
+    #red:checked ~ #box {
+      background-color: red;
+    }
+
+    #blue:checked ~ #box {
+      background-color: blue;
+    }
+
+    #green:checked ~ #box {
+      background-color: green;
+    }
+
+    /* მთლიანი საიტის ფერი */
+    #pageRed:checked ~ .content {
+      background-color: red;
+    }
+
+    #pageBlue:checked ~ .content {
+      background-color: blue;
+    }
+
+    #pageGreen:checked ~ .content {
+      background-color: green;
+    }
+
+    .content {
+      padding: 20px;
+      transition: 0.5s;
+    }
+
+    label {
+      margin: 5px;
+      padding: 10px;
+      border: 1px solid black;
+      cursor: pointer;
+      display: inline-block;
+    }
