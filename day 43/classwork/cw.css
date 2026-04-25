@@ -22,6 +22,7 @@
       background-color: blue;
       border-radius: 50%;
       animation: ballAnim 2s infinite alternate;
+      
     }
 
     @keyframes ballAnim {
