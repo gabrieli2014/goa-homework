@@ -1,37 +1,39 @@
-const quiz = [
+
+    const quiz = [
       {
-        question: "საქართველოს დედაქალაქია?",
-        answers: ["ბათუმი", "ქუთაისი", "თბილისი", "გორი"],
-        correct: "თბილისი"
+        question: "3+4",
+        answers: ["5", "7", "10", "9"],
+        correct: "7"
       },
 
       {
-        question: "2 + 2 = ?",
+        question: "2+2 ",
         answers: ["3", "4", "5", "6"],
         correct: "4"
       },
 
-      {
-        question: "რომელია ყველაზე დიდი ოკეანე?",
-        answers: ["ატლანტის", "წყნარი", "ინდოეთის", "არქტიკული"],
-        correct: "წყნარი"
-      },
+    
 
       {
-        question: "HTML რას ნიშნავს?",
+        question: "% ეს რას ნიშნავს",
         answers: [
-          "Hyper Text Markup Language",
-          "Home Tool Markup Language",
-          "Hyper Tool Multi Language",
-          "High Text Machine Language"
+          "წილადს",
+          "პროცენტს",
+          "ათწილადს",
+          "გამრავლებას"
         ],
-        correct: "Hyper Text Markup Language"
+        correct: "პროცენტს"
+      },
+            {
+        question: "1/100 რამდენი პროცენტია",
+        answers: ["35", "1", "57", "5"],
+        correct: "1"
       },
 
       {
-        question: "JavaScript არის?",
-        answers: ["სათამაშო", "პროგრამირების ენა", "ბრაუზერი", "ოპერაციული სისტემა"],
-        correct: "პროგრამირების ენა"
+        question: "5:10*15",
+        answers: ["10", "7.5", "15.4", "5.7"],
+        correct: "7.5"
       }
     ];
 
